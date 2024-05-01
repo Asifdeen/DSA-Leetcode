@@ -8,11 +8,8 @@ public:
                 sum+= temp%10;
                 temp = floor(temp/10);
             }
-            if(sum<10){
-                return sum;
-            }
-            else{
-                return addDigits(sum);
-            }
+            
+            return sum<10 ? sum : addDigits(sum);
+            
     }
 };
