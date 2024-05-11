@@ -4,7 +4,7 @@ public:
         int ans =0;
         for(auto num : nums){
             ans^=num;
-            cout << ans << " ";
+            //cout << ans << " ";
         }
         return ans;
     }
